@@ -1,28 +1,25 @@
 # Telecom - Plano Ideal
 
 ## Desafio
-Uma empresa de telecomunicações deseja criar uma solução algorítmica que ajude aos seus clientes a escolherem o plano de internet ideal com base em seu consumo mensal de dados. Para a resolução, você pode solicitar ao usuário que insira o seu consumo, sendo este um valor 'float'. Crie uma função chamada recomendar_plano para receber o consumo médio mensal de dados informado pelo cliente, além de utilizar estruturas condicionais para fazer a verificação e retornar o plano adequado.
+Imagine que você trabalha para uma empresa de telecomunicações e é responsável por validar se um número de telefone fornecido pelo cliente está em um formato correto. Para garantir a precisão dos registros, é essencial que os números de telefone estejam no formato padrão. Desenvolva uma função programa que valide se um número de telefone tem o formato correto.
 
-## Planos Oferecidos:
-
-- Plano Essencial Fibra - 50Mbps: Recomendado para um consumo médio de até 10 GB.
-- Plano Prata Fibra - 100Mbps: Recomendado para um consumo médio acima de 10 GB até 20 GB.
-- Plano Premium Fibra - 300Mbps: Recomendado para um consumo médio acima de 20 GB.
+### Formato esperado
+O formato aceito para números de telefone é: (XX) 9XXXX-XXXX, onde X representa um dígito de 0 a 9. Lembre-se de respeitar os espaços entre os números quando preciso.
 
 ### Entrada
-Como entrada solicite o consumo médio mensal de dados em GB (float).
+Uma string representando o número de telefone.
 
 ### Saída
-Retorne o plano ideal para o cliente de acordo com o consumo informado na entrada.
+Uma mensagem indicando se o número de telefone é válido ou inválido.
 
 ### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-| Entrada | Saída                          | 
-| ------- | ------------------------------ | 
-| 10      | Plano Essencial Fibra - 50Mbps | 
-| 19      | Plano Prata Fibra - 100Mbps    | 
-| 21      | Plano Premium Fibra - 300Mbps  | 
+| Entrada         | Saída                        | 
+| --------------- | ---------------------------- | 
+| (88) 98888-8888 | Número de telefone válido.   | 
+| (11)91111-1111  | Número de telefone inválido. | 
+| 225555-555      | Número de telefone inválido. | 
 
 ## Dicas
 
