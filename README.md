@@ -1,1 +1,0 @@
-# Telecom - Plano Ideal
